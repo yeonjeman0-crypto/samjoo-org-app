@@ -1440,8 +1440,19 @@ body {
     page-break-after: avoid;
     break-after: avoid;
   }
-  .print-header .ph-ko { font-size: 12.5px; font-weight: 800; letter-spacing: 1.3px; }
-  .print-header .ph-en { font-size: 8px; color: #64748B; letter-spacing: 1px; margin-top: 1px; font-weight: 600; }
+  .print-header .ph-l { display: flex; align-items: center; gap: 10px; }
+  .print-header .ph-marks { display: inline-flex; gap: 3px; }
+  .print-header .ph-mark {
+    display: inline-flex; align-items: center; justify-content: center;
+    min-width: 24px; height: 22px; padding: 0 5px;
+    border-radius: 4px;
+    font-size: 9px; font-weight: 900; letter-spacing: 0.4px;
+    color: #fff; border: 1px solid rgba(0,0,0,0.05);
+  }
+  .print-header .ph-mark.sj { background: var(--samjoo-600); }
+  .print-header .ph-mark.dk { background: var(--doriko-600); }
+  .print-header .ph-ko { font-size: 12px; font-weight: 800; letter-spacing: 0.8px; }
+  .print-header .ph-en { font-size: 7.5px; color: #64748B; letter-spacing: 1px; margin-top: 1px; font-weight: 600; }
   .print-header .ph-r  { text-align: right; font-size: 8px; color: #64748B; }
   .print-header .ph-section { font-size: 10.5px; font-weight: 800; color: #0F172A; letter-spacing: 1.3px; }
   .print-header .ph-asof { margin-top: 2px; font-size: 8px; }
