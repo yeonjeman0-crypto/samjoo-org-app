@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: samjoo-org-app
+    runtime: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install && npm run init-db
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 22.11.0
