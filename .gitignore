@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+package-lock.json
+
+# logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# editor
+.vscode/
+.idea/
+
+# temp / runtime
+*.bak
+*.tmp
+_*.json
+backend/_*.json
+backend/*.log
+
+# SQLite WAL/SHM (DB 자체는 포함, 임시 파일만 제외)
+db/*.db-wal
+db/*.db-shm

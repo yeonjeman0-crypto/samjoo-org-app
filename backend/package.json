@@ -1,0 +1,15 @@
+{
+  "name": "samjoo-org-backend",
+  "version": "1.0.0",
+  "description": "SAMJOO SM & DORIKO  ·  Organization & Fleet API server",
+  "main": "server.js",
+  "scripts": {
+    "init-db": "node --experimental-sqlite init-db.js",
+    "start": "node --experimental-sqlite server.js",
+    "dev": "node --experimental-sqlite --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.22.1"
+  }
+}
