@@ -8,10 +8,10 @@
 // Run: node migrate-safety-app6.js
 // ============================================================
 const path = require('path');
-const { DatabaseSync } = require('node:sqlite');
+const Database = require('better-sqlite3');
 
 const DB_PATH = path.resolve(__dirname, '..', 'db', 'orgchart.db');
-const db = new DatabaseSync(DB_PATH);
+const db = new Database(DB_PATH);
 
 // ─── 1) has_swa 컬럼 추가 (idempotent) ─────────
 const cols = db.prepare("PRAGMA table_info(vessel_safety_org)").all().map(c => c.name);

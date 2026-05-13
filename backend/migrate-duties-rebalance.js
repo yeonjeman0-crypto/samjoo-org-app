@@ -7,12 +7,12 @@
 // ============================================================
 const fs = require('fs');
 const path = require('path');
-const { DatabaseSync } = require('node:sqlite');
+const Database = require('better-sqlite3');
 
 const DB_PATH = path.resolve(__dirname, '..', 'db', 'orgchart.db');
 const BST_SQL = path.resolve(__dirname, '..', 'db', 'seed_bst.sql');
 
-const db = new DatabaseSync(DB_PATH);
+const db = new Database(DB_PATH);
 
 // ─────────────────────────────────────────────
 // Phase 1 — SQT 재배치 (팽철호 → SQT 인원)

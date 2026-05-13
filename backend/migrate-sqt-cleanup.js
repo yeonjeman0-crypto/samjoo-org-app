@@ -7,10 +7,10 @@
 // Run: node migrate-sqt-cleanup.js
 // ============================================================
 const path = require('path');
-const { DatabaseSync } = require('node:sqlite');
+const Database = require('better-sqlite3');
 
 const DB_PATH = path.resolve(__dirname, '..', 'db', 'orgchart.db');
-const db = new DatabaseSync(DB_PATH);
+const db = new Database(DB_PATH);
 
 console.log('· 노경수 SQT role 정정 (포트캡틴 → 감독선장)');
 const r1 = db.prepare(`

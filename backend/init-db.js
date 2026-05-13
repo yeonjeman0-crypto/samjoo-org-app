@@ -3,7 +3,7 @@
 // ============================================================
 const fs = require('fs');
 const path = require('path');
-const { DatabaseSync } = require('node:sqlite');
+const Database = require('better-sqlite3');
 
 const DB_PATH = path.resolve(__dirname, '..', 'db', 'orgchart.db');
 const SQL_DIR = path.resolve(__dirname, '..', 'db');
@@ -23,7 +23,7 @@ const FILES = [
 ];
 
 if (fs.existsSync(DB_PATH)) { fs.unlinkSync(DB_PATH); console.log('· Old DB removed'); }
-const db = new DatabaseSync(DB_PATH);
+const db = new Database(DB_PATH);
 db.exec('PRAGMA journal_mode = WAL');
 
 for (const [name, label] of FILES) {

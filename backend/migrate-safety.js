@@ -5,12 +5,12 @@
 // ============================================================
 const fs = require('fs');
 const path = require('path');
-const { DatabaseSync } = require('node:sqlite');
+const Database = require('better-sqlite3');
 
 const DB_PATH = path.resolve(__dirname, '..', 'db', 'orgchart.db');
 const SAFETY  = path.resolve(__dirname, '..', 'db', 'seed_safety.sql');
 
-const db = new DatabaseSync(DB_PATH);
+const db = new Database(DB_PATH);
 
 // vessels table: add columns only if missing
 const vesselCols = db.prepare("PRAGMA table_info(vessels)").all().map(r => r.name);

@@ -6,13 +6,13 @@
 // ============================================================
 const fs = require('fs');
 const path = require('path');
-const { DatabaseSync } = require('node:sqlite');
+const Database = require('better-sqlite3');
 
 const DB_PATH    = path.resolve(__dirname, '..', 'db', 'orgchart.db');
 const MTT_SQL    = path.resolve(__dirname, '..', 'db', 'seed_mtt.sql');
 const SUPER_SQL  = path.resolve(__dirname, '..', 'db', 'seed_supervisors.sql');
 
-const db = new DatabaseSync(DB_PATH);
+const db = new Database(DB_PATH);
 
 console.log('· Applying MTT duty assignments…');
 db.exec(fs.readFileSync(MTT_SQL, 'utf8'));

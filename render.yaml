@@ -4,8 +4,8 @@ services:
     runtime: node
     plan: free
     rootDir: backend
-    buildCommand: npm install && npm run init-db
+    buildCommand: npm install
     startCommand: npm start
     envVars:
       - key: NODE_VERSION
-        value: 22.11.0
+        value: 20.18.0
