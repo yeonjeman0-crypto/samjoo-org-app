@@ -32,14 +32,14 @@ INSERT INTO vessel_supervisor (vessel_imo, primary_supt) VALUES
   ('9445394', '이주원'),
   ('9166704', '이주원');
 
--- 김동현 (D.H.Kim · samjoosm.com)  ← DAEBO GLADSTONE
+-- 김동현 (D.H.Kim · samjoosm.com)  ← DAEBO GLADSTONE / BT TREVIA
 INSERT INTO vessel_supervisor (vessel_imo, primary_supt) VALUES
-  ('9610561', '김동현');
+  ('9610561', '김동현'),
+  ('9710517', '김동현');
 
--- 팽철호 (C.H.Pang · samjoosm.com)  ← SJ ASIA / BT TREVIA
+-- 팽철호 (C.H.Pang · samjoosm.com)  ← SJ ASIA
 INSERT INTO vessel_supervisor (vessel_imo, primary_supt) VALUES
-  ('9304538', '팽철호'),
-  ('9710517', '팽철호');
+  ('9304538', '팽철호');
 
 -- WOORI SUN
 INSERT INTO vessel_supervisor (vessel_imo, primary_supt) VALUES

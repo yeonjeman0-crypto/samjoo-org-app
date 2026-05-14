@@ -29,8 +29,8 @@ INSERT INTO staff_contact VALUES
   ('최광식',  'G.S. Choi',    'MTT', 'Superintendent',      '+82-2-2021-7445', '+82-10-7761-9236', 'kschoi@doriko.com',         'DORIKO',    'SJ BUSAN / SJ COLOMBO'),
   ('권순범',  'S.B. Kwon',    'MTT', 'Superintendent',      '+82-2-2021-7404', '+82-10-5539-4609', 'sbkwon@samjoosm.com',       'SAMJOO SM', 'GMT ASTRO'),
   ('이주원',  'J.W. Lee',     'MTT', 'Superintendent',      '+82-2-2021-7443', '+82-10-7257-7319', 'jwlee@doriko.com',          'DORIKO',    'HAE SHIN / G POSEIDON / SOO SHIN'),
-  ('김동현',  'D.H. Kim',     'MTT', 'Superintendent',      '+82-2-2021-7431', '+82-10-5470-9770', 'dhkim@samjoosm.com',        'SAMJOO SM', 'DAEBO GLADSTONE'),
-  ('팽철호',  'C.H. Pang',    'MTT', 'Superintendent',      '+82-2-2021-7406', '+82-10-3001-3786', 'pa5992@samjoosm.com',       'SAMJOO SM', 'SJ ASIA / BT TREVIA'),
+  ('김동현',  'D.H. Kim',     'MTT', 'Superintendent',      '+82-2-2021-7431', '+82-10-5470-9770', 'dhkim@samjoosm.com',        'SAMJOO SM', 'DAEBO GLADSTONE / BT TREVIA'),
+  ('팽철호',  'C.H. Pang',    'MTT', 'Superintendent',      '+82-2-2021-7406', '+82-10-3001-3786', 'pa5992@samjoosm.com',       'SAMJOO SM', 'SJ ASIA'),
   ('김가현',  'G.H. Kim',     'MTT', 'Asst. Manager',       '+82-2-2021-7435', '+82-10-8799-9645', 'ghkim@doriko.com',          'DORIKO',    'Supply Stores and work assistance'),
 
   ('연제만',  'J.M. Yeon',    'SQT', 'Team Leader',         '+82-2-2021-7452', '+82-10-9293-0923', '',                          '',          'Safety & Quality Team overall'),
