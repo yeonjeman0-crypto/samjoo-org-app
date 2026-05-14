@@ -11,11 +11,12 @@ CREATE TABLE vessel_supervisor (
   remarks       TEXT
 );
 
--- 박해민 (H.M.Park · doriko.com)  ← YOUNG SHIN / AH SHIN / SANG SHIN
+-- 박해민 (H.M.Park · doriko.com)  ← YOUNG SHIN / AH SHIN / SANG SHIN / WOORI SUN
 INSERT INTO vessel_supervisor (vessel_imo, primary_supt) VALUES
   ('9021332', '박해민'),
   ('9177430', '박해민'),
-  ('9073701', '박해민');
+  ('9073701', '박해민'),
+  ('9310678', '박해민');
 
 -- 최광식 (G.S.Choi · doriko.com)  ← SJ BUSAN / SJ COLOMBO
 INSERT INTO vessel_supervisor (vessel_imo, primary_supt) VALUES
@@ -41,6 +42,4 @@ INSERT INTO vessel_supervisor (vessel_imo, primary_supt) VALUES
 INSERT INTO vessel_supervisor (vessel_imo, primary_supt) VALUES
   ('9304538', '팽철호');
 
--- WOORI SUN
-INSERT INTO vessel_supervisor (vessel_imo, primary_supt) VALUES
-  ('9310678', '최광식');
+-- WOORI SUN: 박해민 (위 INSERT에 포함됨)

@@ -25,3 +25,8 @@ backend/*.log
 # SQLite WAL/SHM (DB 자체는 포함, 임시 파일만 제외)
 db/*.db-wal
 db/*.db-shm
+
+# DB는 매번 init-db.js로 재생성
+db/orgchart.db
+db/orgchart.db-shm
+db/orgchart.db-wal

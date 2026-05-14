@@ -25,7 +25,7 @@ INSERT INTO staff_contact VALUES
   ('이의진',  'E.J. Lee',     'CMT', 'Asst. Manager',       '+82-51-997-8972', '+82-10-2354-2677', '',                         '',          'Crew drill and training/education, Supply chart and publication'),
 
   ('최우종',  'W.J. Choi',    'MTT', 'Team Leader',         '+82-2-2021-7424', '+82-10-8654-5431', 'wjchoi@doriko.com',         'DORIKO',    'Marine Technical Team overall'),
-  ('박해민',  'H.M. Park',    'MTT', 'Superintendent',      '+82-2-2021-7444', '+82-10-2978-7780', 'hmpark@doriko.com',         'DORIKO',    'YOUNG SHIN / AH SHIN / SANG SHIN'),
+  ('박해민',  'H.M. Park',    'MTT', 'Superintendent',      '+82-2-2021-7444', '+82-10-2978-7780', 'hmpark@doriko.com',         'DORIKO',    'YOUNG SHIN / AH SHIN / SANG SHIN / WOORI SUN'),
   ('최광식',  'G.S. Choi',    'MTT', 'Superintendent',      '+82-2-2021-7445', '+82-10-7761-9236', 'kschoi@doriko.com',         'DORIKO',    'SJ BUSAN / SJ COLOMBO'),
   ('권순범',  'S.B. Kwon',    'MTT', 'Superintendent',      '+82-2-2021-7404', '+82-10-5539-4609', 'sbkwon@samjoosm.com',       'SAMJOO SM', 'GMT ASTRO'),
   ('이주원',  'J.W. Lee',     'MTT', 'Superintendent',      '+82-2-2021-7443', '+82-10-7257-7319', 'jwlee@doriko.com',          'DORIKO',    'HAE SHIN / G POSEIDON / SOO SHIN'),
